@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Online book store for book lovers">
+	  <meta name="keywords" content="online book store, buy, borrow, sell">
+  	<meta name="author" content="Mushfiqur Rahman">
+    <title>Enthusiast Book Lovers | Welcome</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Royel</span> Hotel</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Book Stay</a></li>
+            <li><a href="services.html">Contact Us</a></li>
+            <li class="current"><a href="registration.html">Register</a></li>
+            <li><a href="signin.html">Sign in</a></li>
+
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="showcase">
+      <div class="container" style>
+        <h1 style="color:red">User Registration</h1>
+        <form action="registration.html" method="post">
+          <table align="center">
+            <tr>
+              <td>Full Name:</td>
+              <td> <input type="text" placeholder="Full Name" name="full_name" value="" required> </td>
+            </tr>
+            <tr>
+              <td>User Name:</td>
+              <td> <input type="text" placeholder="User Name" name="user_name" value="" required> </td>
+            </tr>
+            <tr>
+              <td>Password: </td>
+              <td><input type="password" name="pwd" value="" required></td>
+            </tr>
+            <tr>
+              <td>Confirm Password: </td>
+              <td><input type="password" name="c_pwd" value="" required></td>
+            </tr>
+            <tr>
+              <td>E-mail:</td>
+              <td><input type="email" name="u_email" value="" required></td>
+            </tr>
+            <tr>
+              <td>Date of Birth: </td>
+              <td><input type="date" name="u_dob" value="" required></td>
+            </tr>
+            <tr>
+              <td>Phone: </td>
+              <td>+880 <input type="number" name="u_phone" value="" required></td>
+            </tr>
+            <tr>
+              <td>Gender: </td>
+              <td>
+                <input type="radio" name="u_gender" value="male" checked required> Male
+                <input type="radio" name="u_gender" value="female" required> Female
+                <input type="radio" name="u_gender" value="others" required> Others
+              </td>
+            </tr>
+              <td>City </td>
+              <td>
+                <select name="u_city" required>
+                  <option value="" disabled selected>Select your city</option>
+                  <option value="dhaka">Dhaka</option>
+                  <option value="cumilla">Cumilla</option>
+                  <option value="chottogram">Chottogram</option>
+                </select>
+              </td>
+            <tr align="right">
+              <td colspan="2"><input type="submit" name="btn_registration" value="Register"></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+
+      </section>
+
+<h1 style="text-align:center">OUR ROOM SERVICES</h1>
+    <section id="boxes">
+      <div class="container">
+        <div class="box">
+          <img src="./img/singleroom.jpg">
+          <h3>Single Bed Luxurious Rooms</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius auctor lacus nec feugiat. Phasellus sit amet ex ipsum. Praesent pharetra tincidunt tempor. Etiam velit eros, dapibus eget porta in, lacinia et magna. Nam eget eros non orci consectetur congue at ac augue. Proin eget arcu in enim feugiat ultricies. Curabitur maximus metus nec metus pretium viverra at et orci. Integer hendrerit ante ut placerat cursus.</p>
+        </div>
+        <div class="box">
+          <img src="./img/doubleroom.jpg">
+          <h3>Double Bed Luxurious Rooms</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius auctor lacus nec feugiat. Phasellus sit amet ex ipsum. Praesent pharetra tincidunt tempor. Etiam velit eros, dapibus eget porta in, lacinia et magna. Nam eget eros non orci consectetur congue at ac augue. Proin eget arcu in enim feugiat ultricies. Curabitur maximus metus nec metus pretium viverra at et orci. Integer hendrerit ante ut placerat cursus.</p>
+        </div>
+        <div class="box">
+          <img src="./img/honeymoon.jpg">
+          <h3>Honey Moon suits</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius auctor lacus nec feugiat. Phasellus sit amet ex ipsum. Praesent pharetra tincidunt tempor. Etiam velit eros, dapibus eget porta in, lacinia et magna. Nam eget eros non orci consectetur congue at ac augue. Proin eget arcu in enim feugiat ultricies. Curabitur maximus metus nec metus pretium viverra at et orci. Integer hendrerit ante ut placerat cursus.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Royal Hotel, Copyright &copy; 2020</p>
+    </footer>
+  </body>
+</html>
